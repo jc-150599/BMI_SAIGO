@@ -5,6 +5,11 @@
              x:Class="BMI_SAIGO.MainPage">
     <ContentPage.Content>
         <StackLayout>
+            <Label Text="JK3A 14 境駿太"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            
+            
             <Label Text="身長を入力してください"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
@@ -12,7 +17,8 @@
             <Entry x:Name="height"
                    Text=""
                    VerticalOptions="CenterAndExpand" 
-                   HorizontalOptions="CenterAndExpand" />
+                   HorizontalOptions="CenterAndExpand"
+                   WidthRequest="100"/>
 
             <Label Text="体重を入力してください"
                 VerticalOptions="CenterAndExpand" 
@@ -21,7 +27,8 @@
             <Entry x:Name="weight"
                    Text=""
                    VerticalOptions="CenterAndExpand" 
-                   HorizontalOptions="CenterAndExpand" />
+                   HorizontalOptions="CenterAndExpand"
+                   WidthRequest="100"/>
 
             <Button Text="計算"
                    VerticalOptions="CenterAndExpand" 
