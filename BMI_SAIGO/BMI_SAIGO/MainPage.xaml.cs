@@ -16,7 +16,9 @@ namespace BMI_SAIGO
 
         private void BMI_Button_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("BMI", "太りすぎ", "OK");
+            double dHeight = double.Parse(height.Text);
+
+            DisplayAlert("BMI", dHeight + "太りすぎ", "OK");
         }
     }
 }
