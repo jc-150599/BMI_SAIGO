@@ -5,9 +5,29 @@
              x:Class="BMI_SAIGO.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="身長を入力してください"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+
+            <Entry x:Name="height"
+                   Text=""
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="体重を入力してください"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Entry x:Name="weight"
+                   Text=""
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="計算"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand"
+                    x:Name="BMI_Button"
+                    Clicked="BMI_Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
